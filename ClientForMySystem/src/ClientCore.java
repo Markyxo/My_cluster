@@ -256,8 +256,8 @@ public class ClientCore {
     public static String userWord;
     public static String nickname;
     public static String password;
-    public static String ipAddr = "localhost";
-    public static int port = 8080;
+    //public static String ipAddr = "localhost";
+    //public static int port = 8080;
     
     /**
      * создание клиент-соединения с узананными адресом и номером порта
@@ -266,6 +266,6 @@ public class ClientCore {
     
     public static void StartClient() {
     	//Controller.setSysText(ClientForMySys.IP);
-        new ClientSomthing(ipAddr, port);//ClientForMySys.IP, ClientForMySys.port);
+        new ClientSomthing(ClientForMySys.IP, ClientForMySys.port);//ClientForMySys.IP, ClientForMySys.port);
     }
 }
