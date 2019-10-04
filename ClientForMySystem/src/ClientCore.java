@@ -90,7 +90,7 @@ class ClientSomthing {
                         break;
                 }
                 System.out.println(ClientCore.password);
-
+                //CHANGE!!!!
                 send.writeByte(wordMT);
                 send.writeUTF(ClientCore.nickname);
                 send.writeUTF(ClientCore.password);
